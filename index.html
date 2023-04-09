@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Page Project</title>
+    <style>
+        body {
+    background-color: white;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {
+    box-sizing: border-box;
+}
+#login-body {
+    background-color: lightblue;
+    width: 35%;
+    height: 550px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 8px #888888;
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+}
+form h1 {
+    text-align: center;
+}
+.first-link {
+    text-align: center;
+    text-decoration: none;
+}
+.first-link a:link {
+    text-decoration: none;
+}
+.fm {
+    text-align: center;
+    padding-top: 10px;
+}
+.button-01, .button-03, .button-04 {
+    background-color: blue;
+    width: 30%;
+    height: 30px;
+    border: none;
+    color: white;
+}
+.button-01 a:hover {
+    background-color: #888888;
+}
+    </style>
+</head>
+<body>
+    <div id="login-body">
+    <form class="fm">
+        <h1> Login </h1>
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Email" size="30" style="width: 60%; height: 35px;" 
+        required>
+        <br><br>
+        <label for="password"></label>
+        <input type="pwd" id="pwd" name="pwd" placeholder="Password" size="30px" style="width: 60%; height: 35px;"
+        required>
+        <br><br>
+        <div class="first-link"><a href="#">Forget Password</a></div>
+        <br>
+        <button class="button-01" style="width: 60%; height: 35px;"> Login </button>
+        <br><br>
+        <div class="sign">Don't have an account? <a href="index2.html"> Sign up here </a></div>
+        <br>
+        <p>------------------ Or ----------------</p>
+        <br>
+        <button class="button-03" style="width: 60%; height: 35px;"> Login with facebook </button>
+        <br><br>
+        <button class="button-04" style="width: 60%; height: 35px;"> Login with goggle </button>
+    </form>
+    </div>
+
+    <div id="login-body">
+        <form id="fm">
+            <h1> Signup</h1>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" size="30" style="width: 60%; height: 35px;" 
+            required>
+            <br><br>
+            <label for="password"></label>
+            <input type="pwd" id="pwd" name="pwd" placeholder="Change Password" size="30" style="width: 60%; height: 35px;"
+            required>
+            <br><br>
+            <label for="password"></label>
+            <input type="pwd" id="pwd" name="pwd" placeholder="New Password" size="30" style="width: 60%; height: 35px;"
+            required>
+            <br><br>
+            <div class="first-link"><a href="#">Forget Password</a></div>
+            <br>
+            <button class="button-01" style="width: 60%; height: 35px;"> Login </button>
+            <br><br>
+            <div class="sign">Don't have an account? <a href="index2.html"> Sign up here </a></div>
+            <br>
+            <p>------------------ Or ----------------</p>
+            <br>
+            <button class="button-03" style="width: 60%; height: 35px;"> Login with facebook </button>
+            <br><br>
+            <button class="button-04" style="width: 60%; height: 35px;"> Login with goggle </button>
+        </form>
+   </div>
+</body>
+</html>
